@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>수정폼</title>
+</head>
+<body>
+<center>
+    <form action="updateend" method="post">
+    아이디 : {{id}}<p>
+        <input type="hidden" name="id" value="{{id}}">//키값(기준값)필수로 보내야함.
+    이름 : <input type="text" name="name" size="20" placeholder="이름을 입력해주세요."><p>
+    번호 : <input type="text" name="phone" size="20" placeholder="번호를 입력해주세요."><p>
+    <input type="submit" value="입력">
+    <input type="reset" value="취소">
+    </form>
+</center>
+</body>
+</html>

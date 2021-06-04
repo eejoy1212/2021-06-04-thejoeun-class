@@ -1,0 +1,2 @@
+com/example/class0604/Class0604ApplicationTests.java
+ com.example.class0604.Class0604ApplicationTests
